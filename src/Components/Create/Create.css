@@ -1,11 +1,19 @@
+.parentDiv{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.form-title{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
 .centerDiv {
     border: 1px solid black;
     width: max-content;
     padding: 50px;
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     border-radius: 6px;
   }
   .input {
@@ -13,6 +21,7 @@
     border-left-color: transparent;
     border-right-color: transparent;
     outline-color: transparent;
+    width: 100%;
   }
   
   .uploadBtn {

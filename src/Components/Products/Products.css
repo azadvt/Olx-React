@@ -60,12 +60,12 @@
   min-height: 100%;
   text-align: center;
 }
-.card .content .rate {
+.card .content .price {
   margin-top: 10px;
   font-size: larger;
   font-weight: bold;
 }
-.card .content .kilometer {
+.card .content .category {
   font-size: medium;
 }
 .card .content .name {

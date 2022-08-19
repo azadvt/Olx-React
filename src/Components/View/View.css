@@ -3,12 +3,16 @@
   display: flex;
 }
 .viewParentDiv .imageShowDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 16px;
   width: 70vw;
 }
 .viewParentDiv .imageShowDiv img {
-  width: 65vw;
-  height: 85vh;
+  max-height: 70vh;
+  height: 70vh;
+  width: auto;
 }
 
 .viewParentDiv .rightSection {

@@ -1,6 +1,4 @@
-.footerParentDiv {
-  width: 100vw;
-}
+
 .footerParentDiv .content {
   display: flex;
   justify-content: space-between;
